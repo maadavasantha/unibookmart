@@ -1,0 +1,144 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9c2fc;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Login box */
+.login-box {
+    background-color: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+/* Remove default spacing */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Full screen center */
+body {
+    display: flex;
+    justify-content: center;   /* Horizontal center */
+    align-items: center;       /* Vertical center */
+    min-height: 100vh;         /* Full viewport height */
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    font-family: Arial, sans-serif;
+}
+
+/* White login card */
+.login-box {
+    background-color: white;
+    padding: 40px;
+    width: 380px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+/* Full page background */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/* White card for form */
+.form-box {
+    background-color: white;   /* THIS makes form white */
+    padding: 40px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+/* Headings */
+.form-box h2 {
+    text-align: center;
+}
+
+/* Inputs */
+input, select {
+    width: 50%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Add Book Button */
+a {
+    text-decoration: none;
+    padding: 8px 14px;
+    background-color: #4086d2;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Buttons */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Logout Link */
+.logout {
+    background-color: #c25347;
+}
+
+.logout:hover {
+    background-color: #e87a1f;
+
+}    
